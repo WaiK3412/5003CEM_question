@@ -354,8 +354,8 @@ class SocialMediaApp:
             print("3. View followers of any profile")
             print("4. View followed accounts of any profile")
             print("5. Add a new user profile")
-            print("6. Follow a user")  # NEW FEATURE (c)
-            print("7. Unfollow a user")  # NEW FEATURE (d)
+            print("6. Follow a user")  
+            print("7. Unfollow a user")  
             print("8. Quit")
             print("=" * 70)
 
@@ -372,9 +372,9 @@ class SocialMediaApp:
             elif choice == "5":
                 self.add_user_profile()
             elif choice == "6":
-                self.follow_user()  # NEW
+                self.follow_user()  
             elif choice == "7":
-                self.unfollow_user()  # NEW
+                self.unfollow_user() 
             elif choice == "8":
                 print("\n✓ Thank you for using Slowgram!")
                 break
